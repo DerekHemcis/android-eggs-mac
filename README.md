@@ -10,6 +10,12 @@
 |---|---|---|---|
 | [Landroid](eggs/landroid/) | 17 (Cinnamon Bun) | 锁屏动画 / 屏保 / 全屏 App | 星际飞行模拟：恒星 + 行星开普勒公转，飞船自动驾驶探索，座舱遥测 UI |
 
+## 直接下载成品
+
+不想自己编译：[**下载 Landroid-macOS-v1.0.0.zip**](https://github.com/DerekHemcis/android-eggs-mac/releases/download/v1.0.0/Landroid-macOS-v1.0.0.zip)（约 76MB，含预编译 .saver 和锁屏视频）
+
+解压后依次双击 `install.command` → `应用锁屏动画.command` 即可，无需 Xcode。
+
 ## 快速开始
 
 ```bash

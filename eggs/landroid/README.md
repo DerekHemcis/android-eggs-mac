@@ -27,7 +27,9 @@
 ### 前提
 
 - macOS 26 (Tahoe) 或更新，Apple Silicon
-- **只有从源码构建才需要** Xcode Command Line Tools（`xcode-select --install`）；直接用 Release 里预编译的 `.saver` 不需要
+- **只有从源码构建才需要** Xcode Command Line Tools（`xcode-select --install`）；直接下载成品包则不需要
+
+想省事可直接下成品：[**Landroid-macOS-v1.0.0.zip**](https://github.com/DerekHemcis/android-eggs-mac/releases/download/v1.0.0/Landroid-macOS-v1.0.0.zip)（含预编译 `.saver` + 锁屏视频，解压后脚本是平铺的）
 
 ### 方式 A：锁屏动画（推荐）
 
