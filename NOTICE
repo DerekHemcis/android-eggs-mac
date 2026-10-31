@@ -1,0 +1,14 @@
+Landroid for macOS
+Copyright 2026 DerekHemcis
+
+This product includes software derived from the Android Open Source Project
+"Landroid" Easter egg (Android 17 / Cinnamon Bun), licensed under the
+Apache License, Version 2.0.
+
+Original Kotlin sources:
+  https://github.com/hushenghao/AndroidEasterEggs  (eggs/CinnamonBun)
+Original AOSP sources:
+  https://android.googlesource.com/platform/packages/apps/EasterEgg/
+
+The macOS port (Swift + CoreGraphics + CoreText) reimplements the same
+physics integrator, autopilot strategy and rendering parameters.

@@ -1,0 +1,2 @@
+_OBJC_CLASS_$_LandroidView
+_OBJC_METACLASS_$_LandroidView
