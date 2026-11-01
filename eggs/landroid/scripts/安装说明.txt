@@ -23,11 +23,11 @@ Android 17（Cinnamon Bun）彩蛋「兰卓伊德宇宙」的原样移植：一�
 三个一键切换（双击即可，会自己重启壁纸进程）
 —————————————————————————————
 【设为锁屏动画·视频版】锁屏立刻动，3 分钟一循环（推荐，现在就是这个）
-【设为屏保·实时模拟】锁屏闲置 60 秒后起屏保，真·实时物理，永不重复
+【设为屏保·实时模拟】锁屏闲置 5 分钟后起屏保，真·实时物理，永不重复
 【还原系统默认锁屏】换回 macOS 自带
 
-想改闲置时间（第二个模式用）：
-  defaults -currentHost write com.apple.screensaver idleTime -int 60
+想改闲置时间（第二个模式用，单位秒；300 = 5 分钟）：
+  defaults -currentHost write com.apple.screensaver idleTime -int 300
 
 —————————————————————————————
 包里其它东西

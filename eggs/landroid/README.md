@@ -49,10 +49,10 @@ cd android-eggs-mac/eggs/landroid
 
 1. 双击 `scripts/install.command`
 2. 双击 `scripts/设为屏保·实时模拟.command`
-3. 缩短闲置触发时间（可选）：
+3. 调整闲置触发时间（默认 5 分钟，可改）：
 
 ```bash
-defaults -currentHost write com.apple.screensaver idleTime -int 60
+defaults -currentHost write com.apple.screensaver idleTime -int 300   # 5 分钟
 ```
 
 ### 方式 C：全屏预览
